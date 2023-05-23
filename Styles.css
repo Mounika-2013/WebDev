@@ -1,0 +1,62 @@
+html {
+    text-align: center;
+    width: 75%;
+    padding: 1%;
+    margin: 5%;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Kalam', cursive;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.center {
+    align-items: center;
+    list-style-position: outside;
+}
+
+a {
+    text-decoration: none;
+}
+
+#started {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 15%;
+    height: 25%;
+    padding: 1.5%;
+
+}
+
+#signin {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 15%;
+    height: 25%;
+    padding: 1.5%;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    width: 50%;
+}
+
+table {
+
+    margin-left: 25%;
+    margin-right: 25%;
+}
