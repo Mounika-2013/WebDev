@@ -8,9 +8,16 @@ html {
     font-family: 'Roboto Mono', monospace;
 }
 
+ol {
+    padding-left: 20px;
+    margin-left: 25%;
+
+}
+
 .center {
-    align-items: center;
+    align-content: center;
     list-style-position: outside;
+    text-align: left;
 }
 
 a {
@@ -53,10 +60,22 @@ td {
     border-collapse: collapse;
     padding: 10px;
     width: 50%;
+    text-align: left;
 }
 
 table {
 
     margin-left: 25%;
     margin-right: 25%;
+}
+
+caption {
+    font-size: 24px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+hr {
+    width: 75%;
 }
